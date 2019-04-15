@@ -57,7 +57,8 @@ enum class NodeID {
     CANCurrentSensor,
     PowerTrack,
 	CameraProcessingUtility, 
-    VoterTCPDebugger
+    VoterTCPDebugger,
+    WindDataReporter
 };
 
 inline std::string nodeToString(NodeID id) {
